@@ -1,0 +1,51 @@
+/* 1200px */
+@media (max-width: 1200px) {
+
+  .navbar{
+    padding: 16px 80px;
+   }
+  .hero,
+  .section,
+  .footer {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .cta-section {
+    padding: 80px;
+  }
+  .product-row {
+    gap: 60px;
+  }
+  .gallery {
+  flex: 1;
+  max-width: 490px;  /* 👈 keeps desktop design */
+  width: 100%;
+  min-width: 0;      /* 👈 IMPORTANT for flex shrink */
+}
+  .price-card-360{
+  display: none;
+}
+  .product-info {
+    flex: 1;
+    min-width: 0;
+  }
+  .product-title {
+    font-size: 48px;
+    line-height: 57.6px;
+  }
+  .section-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .section-title.lg {
+    font-size: 44px;
+    line-height: 52.8px;
+  }
+  .cta-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  #hidden1200{
+    display: none;
+  }
+}

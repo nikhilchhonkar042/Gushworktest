@@ -1,0 +1,252 @@
+/* 360px (Mobile) */
+@media (max-width: 360px) {
+  /* .container {
+    padding: 16px 16px;
+  } */
+  .navbar {
+    padding: 16px 16px;
+  }
+  .nav-right {
+    display: none;
+  }
+
+  .hero,
+  .section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+  }
+  .hero-container {
+    padding: 80px 16px 48px; /* 👈 exact figma */
+    gap: 56px; /* 👈 spacing between sections */
+  }
+  .cta-section {
+    padding: 20px;
+  }
+
+  /* Nav collapses */
+  .nav-links {
+    display: none;
+  }
+
+  /* Product title smaller */
+  .product-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .product-row {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .gallery,
+  .product-info,
+  .price-card-360 {
+    width: 100%;
+  }
+  .section-title {
+    font-size: 26px;
+    line-height: 31.2px;
+  }
+  .section-title.lg {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+  .cta-title {
+    font-size: 26px;
+    line-height: 31.2px;
+  }
+  .section-sub {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Certs wrap */
+  .certs {
+    flex-wrap: wrap;
+  }
+  /* Buttons stack */
+  .btns {
+    flex-direction: column;
+    width: 100%;
+  }
+  /* Gallery */
+  .main-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 16px;
+  }
+  .thumbs {
+    gap: 10px;
+  }
+  .thumb {
+    width: 56px;
+    height: 56px;
+  }
+  .gal-arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* All grids single column */
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .ind-grid {
+    grid-template-columns: 1fr;
+  }
+  .prod-grid {
+    flex-direction: column;
+  }
+  .ind-card {
+    width: 320px;
+    height: 320px;
+  }
+  /* Testimonials single col */
+  .testimonials {
+    flex-direction: column;
+  }
+  .test-col {
+    flex: none;
+    width: 100%;
+  }
+  .test-col:nth-child(2),
+  .test-col:nth-child(3) {
+    display: none;
+  }
+  .test-card {
+    width: 328px;
+    height: 407px;
+  }
+  .price-card {
+    display: none;
+  }
+  .price-card-360 {
+    border: 1px solid #cfd1d4;
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  /* Price tags wrap */
+  .tags {
+    flex-wrap: wrap;
+  }
+
+  /* Buttons stack */
+  .btns {
+    flex-direction: column;
+  }
+  .btn-fill,
+  .btn-outline {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Trusted logos scroll */
+  .tlogo {
+    height: 24px;
+  }
+
+  .tlogo img {
+    height: 24px;
+  }
+  .trusted {
+    gap: 16px;
+  }
+  .trusted-logos {
+    justify-content: space-between;
+  }
+
+  /* Process tabs scroll */
+  .process-tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+  .ptab {
+    flex-shrink: 0;
+  }
+
+  .section-title-v2 {
+    max-width: 328px;
+    font-size: 28px;
+    line-height: 36px; /* adjusted for readability */
+  }
+
+  .section-sub-v2 {
+    max-width: 328px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* CTA */
+  .cta-box {
+    padding: 32px;
+    border-radius: 20px;
+  }
+  .cta-form {
+    padding: 20px;
+  }
+
+  /* Footer single col */
+  .footer-cols {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .footer-col {
+    flex: none;
+  }
+  .footer-brand {
+    flex-direction: column;
+  }
+  /* FAQ catalogue */
+  .faq-container,
+  .industry-container,
+  .manufact-container,
+  .test-container,
+  .prod-container,
+  .resource-container,
+  .cta-container,
+  .footer-container {
+    padding: 0px;
+  }
+  .footer-brand-title {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .cat-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .expert-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .prod-name {
+    font-size: 22px;
+    line-height: 26.4px;
+  }
+  .res-item {
+    flex-direction: column;
+    align-items: start;
+  }
+  #hidden360 {
+    display: none;
+  }
+  #visible360 {
+    display: flex;
+  }
+}

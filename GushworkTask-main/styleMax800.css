@@ -1,0 +1,180 @@
+/* 800px (Tablet) */
+@media (max-width: 800px) {
+  /* .container {
+    padding: 16px 48px;
+  } */
+  .navbar {
+    padding: 16px 48px;
+  }
+
+  .hero,
+  .section,
+  .footer {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  /* .hero-container {
+    padding: 80px 48px;
+  } */
+  .zoom-result {
+    display: none !important;
+  }
+
+  /* Ensure product-row doesn't bleed into trusted section */
+  .product-row {
+    position: relative;
+    flex-direction: column-reverse;
+    z-index: 1;
+  }
+
+  /* Give the gallery a defined flow so nothing escapes it */
+  .gallery {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Ensure trusted section sits cleanly below */
+  .trusted {
+    position: relative;
+    z-index: 2;
+    margin-top: 40px; /* add breathing room */
+    clear: both;
+  }
+  .cta-section {
+    padding: 48px;
+  }
+  .main-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+  .thumbs {
+    justify-content: space-between;
+  }
+  .price-card-360 {
+    display: none;
+  }
+  .product-info {
+    flex: none;
+    width: 100%;
+  }
+  .product-title {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+
+  /* Cards 2 cols */
+  .cards-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .ind-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Products stack */
+  .prod-grid {
+    flex-direction: column;
+  }
+
+  /* Testimonials 2 cols */
+  .testimonials {
+    flex-wrap: wrap;
+  }
+  .test-col {
+    flex: 1 1 45%;
+  }
+  .test-col:nth-child(3) {
+    display: none;
+  }
+
+  /* CTA stacks */
+  .cta-box {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .cta-right {
+    width: 100%;
+  }
+
+  /* Catalogue bar stacks */
+  .catalogue-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .cat-form {
+    flex-direction: column;
+    width: 100%;
+  }
+  .cat-input {
+    width: 100%;
+  }
+  .expert-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  /* FAQ title */
+  .faq-list h2 {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+
+  /* Section titles */
+  .section-title {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+  .section-title.lg {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+  .cta-title {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+  .section-title-v2 {
+    max-width: 704px;
+    font-size: 40px;
+    line-height: 53px; /* from your spec */
+  }
+
+  .section-sub-v2 {
+    max-width: 704px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /* Process content stacks */
+  .process-content {
+    flex-direction: column;
+  }
+  .process-img {
+    width: 100%;
+    height: 240px;
+  }
+
+  /* Footer cols wrap */
+  .footer-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer-brand {
+    flex: none;
+  }
+  .footer-cols {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .footer-col {
+    flex: 1 1 40%;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #hidden800 {
+    display: none;
+  }
+}

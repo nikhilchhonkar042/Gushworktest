@@ -1,0 +1,13 @@
+@media (max-width: 1440px) {
+
+  .hero,
+  .section,
+  .cta-section,
+  .footer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .price-card-360{
+  display: none;
+}
+}
